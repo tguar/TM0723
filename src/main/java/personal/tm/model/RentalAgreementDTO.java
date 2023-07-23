@@ -176,42 +176,72 @@ public class RentalAgreementDTO {
         this.dailyRentalCharge = dailyRentalCharge;
     }
 
+    /**
+     * The {@link Integer} number of days charged
+     */
     public Integer getChargeDays() {
         return chargeDays;
     }
 
+    /**
+     * Sets the {@link Integer} number of days charged
+     */
     public void setChargeDays(Integer chargeDays) {
         this.chargeDays = chargeDays;
     }
 
+    /**
+     * The {@link BigDecimal} pre discount charge
+     */
     public BigDecimal getPreDiscountCharge() {
         return preDiscountCharge;
     }
 
+    /**
+     * Sets the {@link BigDecimal} pre discount charge
+     */
     public void setPreDiscountCharge(BigDecimal preDiscountCharge) {
         this.preDiscountCharge = preDiscountCharge;
     }
 
+    /**
+     * The {@link Integer} discount percent
+     */
     public Integer getDiscountPercent() {
         return discountPercent;
     }
 
+    /**
+     * Sets the {@link Integer} pre discount charge
+     */
     public void setDiscountPercent(Integer discountPercent) {
         this.discountPercent = discountPercent;
     }
 
+    /**
+     * The {@link BigDecimal} discount amount
+     */
     public BigDecimal getDiscountAmount() {
         return discountAmount;
     }
 
+    /**
+     * Sets the {@link BigDecimal} pre discount charge
+     */
     public void setDiscountAmount(BigDecimal discountAmount) {
         this.discountAmount = discountAmount;
     }
 
+    /**
+     * The {@link BigDecimal} final charge
+     */
     public BigDecimal getFinalCharge() {
         return finalCharge;
     }
 
+    /**
+     * Sets the {@link BigDecimal} final charge
+     */
     public void setFinalCharge(BigDecimal finalCharge) {
         this.finalCharge = finalCharge;
     }

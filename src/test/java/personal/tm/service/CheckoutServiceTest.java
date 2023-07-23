@@ -159,6 +159,7 @@ public class CheckoutServiceTest {
                 () -> Assertions.assertEquals(checkoutDate, result.getCheckoutDate(), "Checkout date should match"),
                 () -> Assertions.assertEquals(LocalDate.of(2023, 01, 3), result.getDueDate(), "Due date should match"),
                 () -> Assertions.assertEquals(new BigDecimal("1.49"), result.getDailyRentalCharge(), "Daily rental charge should match"),
+                () -> Assertions.assertEquals(2, result.getChargeDays(), "Charge days should match"),
                 () -> Assertions.assertEquals(new BigDecimal("5.00"), result.getPreDiscountCharge(), "Pre discount charge should match"),
                 () -> Assertions.assertEquals(10, result.getDiscountPercent(), "Discount percent should match"),
                 () -> Assertions.assertEquals(new BigDecimal("0.50"), result.getDiscountAmount(), "Discount amount should match"),
